@@ -73,7 +73,7 @@ var usuarioBuscado = gestorUsuarios.BuscarUsuario(usuario.Nombre);
 var usuariosAsignados = entrenador.ObtenerUsuariosAsignados();
 if (usuariosAsignados.Contains(usuarioBuscado))
 {
-    Console.WriteLine($"Entrenador Asignado: {entrenador.Nombre}")
+    Console.WriteLine($"Entrenador Asignado: {entrenador.Nombre}");
 }
 
 

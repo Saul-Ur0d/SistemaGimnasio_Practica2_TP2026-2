@@ -12,6 +12,7 @@ namespace SistemaGestionGimnasio.Modelos
         {
             Nombre = nombre;
             Especialidad = especialidad;
+            usuariosAsignados = new List<Usuario>();
         }
 
         public void AgregarUsuario(Usuario usuario)
